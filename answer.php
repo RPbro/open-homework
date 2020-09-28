@@ -13,6 +13,7 @@ function getQuestionList($studentHomeworkId)
         'Authorization:' . Authorization,
         'appType:OES',
         'schoolId:' . SchoolId,
+        'token:' . Token
     ]);
 
     $resp = json_decode($resp, true);

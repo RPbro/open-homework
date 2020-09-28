@@ -1,13 +1,15 @@
 <?php
-// cookie
-const Cookie = 'ASP.NET_SessionId=emqmoz0h1s1om3yv2mojtyoq';
-// 题目ID (studentHomeworkId)
-const HomeworkId = '8aac01a6-f7c5-4706-a22e-9122aaf42b31';
+// 学校id
+const SchoolId = '10614';
 // 题目列表
 const GetHomeworkUrl = 'https://homeworkapi.open.com.cn/getHomework';
 // 错题本详情
 const GetQuestionDetailUrl = 'http://learn.open.com.cn/StudentCenter/OnlineJob/GetQuestionDetail';
+// 题目ID (studentHomeworkId)
+const HomeworkId = '9abec761-794e-4b26-833d-40b6ad35cdc9';
+// cookie
+const Cookie = 'ASP.NET_SessionId=pdgdu3etmuwixatw5r4jmser';
 // auth token
-const Authorization = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiMTU4ODUzMzc2OSIsImlhdCI6MTU4ODUzMzc2OX0.31Vs3sUrtzkS-zzJetHWVUXn43i27yIrWZWFikau6gs';
-// 学校id
-const SchoolId = '10614';
+const Authorization = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiMTYwMTI4NDg4OSIsImlhdCI6MTYwMTI4NDg4OX0.ezpbalyvq3Cy7pVvc3ECT_ieP33ahJpybv3PRrXZDtk';
+// 签名token
+const Token = '618E5BAC4F2C3C269B2EC9AC862981B53B8170CB8952400A536529BCF7B8493C4A870A3950AEF747E7C5C89C327E8DFC4C692ED17929E400A18F560133AE46C1989815A2C2C0656D586F8E98FD0BEFED562F775BA6A4133F11FA30366108FD14885457B867D9A6B46F1946CC1D062256F3C97E80D34B2D4407E752EFFC35F8C7FFEBAC8D2CB73C3AE65F869AFC4646D1A2699A0964D5D32C84547E74CE7B6381DE34B2D94AACEC79';
