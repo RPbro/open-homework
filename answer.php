@@ -17,8 +17,11 @@ function getQuestionList($studentHomeworkId)
     ]);
 
     $resp = json_decode($resp, true);
-    if (!$resp || !$resp['data']) {
+    if (!is_array($resp)) {
         exit('获取题目列表失败');
+    }
+    if (!$resp['data'] && $resp['message']) {
+        exit($resp['message']);
     }
 
     $items = $resp['data']['paperInfo']['Items'];
